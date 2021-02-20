@@ -8,8 +8,8 @@ header{
 main{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    background-image: url(img/school.jpg);
-    height: 417px;
+    background-image: url(./school.jpg);
+
 }
 
 label{
