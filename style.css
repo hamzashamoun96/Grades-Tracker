@@ -7,7 +7,7 @@ header{
 main{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    background-image: url(/school.jpg);
+    background-image: url(./school.jpg);
 }
 label{
     font-family: 'Roboto', sans-serif;
