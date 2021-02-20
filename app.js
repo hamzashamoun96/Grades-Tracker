@@ -7,6 +7,8 @@ var table = document.getElementById('table');
 var form = document.getElementById('form');
 form.addEventListener('submit', AddStudent);
 
+
+
 function AddStudent(evt) {
     evt.preventDefault();
     console.log(evt);
@@ -66,8 +68,6 @@ function GenerateGrades() {
     return Math.floor(Math.random() * 100);
 }
 
-
-
 function Render() {
     var trHead = document.createElement('tr');
     table.appendChild(trHead);
@@ -100,5 +100,6 @@ function ClearData(event){
     event.preventDefault();
 localStorage.removeItem('StudentsDATA');
 table.innerHTML = '';
+Render();
 trigger = true;
 }
